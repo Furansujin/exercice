@@ -16,7 +16,7 @@ public class Etoile {
         for(i=0; i<n ; i++){
             for (j=0 ; j<i; j++)
                 System.out.print("*");
-                System.out.println();
+            System.out.println();
 
         }
         /**
@@ -29,9 +29,8 @@ public class Etoile {
             for(j=0;j<n-i;j++)
                 System.out.print(espace);
             for(k=0; k<(i*2+1); k++)
-
                 System.out.print("*");
-                System.out.println();
+            System.out.println();
         }
     }
 }
